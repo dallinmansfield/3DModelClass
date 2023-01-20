@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Table Model.ma
-//Last modified: Thu, Jan 19, 2023 01:48:47 PM
+//Last modified: Thu, Jan 19, 2023 01:50:44 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "5.0.0.4";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202205171752-c25c06f306";
 fileInfo "osv" "Windows 10 Enterprise v2009 (Build: 19044)";
-fileInfo "UUID" "4CA3CCE8-4726-1041-DB81-D8B10560F828";
+fileInfo "UUID" "200F8DB6-4B4E-532F-3EBF-E6B3993ABAD1";
 createNode transform -s -n "persp";
 	rename -uid "AECAD82B-408E-A729-CBC7-59AE291F93C5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 5.9167174587622702 0.44790068995070409 12.491612518071523 ;
-	setAttr ".r" -type "double3" 5.0616472703993072 24.599999999993027 0 ;
+	setAttr ".t" -type "double3" 7.7535060968982847 6.5843724827871748 10.449800456838968 ;
+	setAttr ".r" -type "double3" -20.738352729600756 35.799999999993034 9.8036511030246454e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6857F989-471B-4EB1-0D9D-8B9BEBFC178A";
 	setAttr -k off ".v" no;
